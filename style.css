@@ -1,0 +1,356 @@
+/* google fonts css code start here */
+/*font-family: 'Alfa Slab One', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Festive', cursive;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Serif', serif;
+font-family: 'Syne Tactile', cursive;/*
+/* google fonts css code end here */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header section css start here */
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.f-content{
+    color: #3d2514 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+}
+.nav-link{
+    text-transform: uppercase;
+    color: #3d2514 !important;
+    font-family: 'Bebas Neue';
+    letter-spacing: 3px;
+}
+.nav-item a{
+    margin-right: 10px;
+}
+/* header section css end here */
+
+/* burger group section css code section start */
+#group{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.burger-group{
+    margin-bottom: 50px;
+}
+.burger2 img{
+    width: 100%;
+    height: 180px;
+    margin-left: 200px;
+    margin-top: 18px;
+
+}
+/* middle section css code start here */
+.middle-left{
+    margin-top: 50px;
+}
+.middle-left h5{
+    color: #3d2514;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+    font-size: 16px;
+    padding-top: 80px;
+    letter-spacing: 1px;
+}
+.middle-left h1{
+    color: #3d2514;
+    font-family:'Alfa Slab One';
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-shadow: 5px 2px 0px rgba(255 , 255, 255, 60%);
+    letter-spacing: 1px;
+}
+.middle-left h4{
+    color: #3d2514;
+    font-family:'Alfa Slab One';
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 5px 2px 0px rgba(255 , 255, 255, 60%);
+}
+.middle-right{
+    margin-top: -400px;
+    margin-left: 350px;
+}
+
+.middle-right img{
+    width: 800px;
+}
+/* buger group section css code end here */
+
+/* menu section css code start */
+.menu-top{
+    text-align: center;
+}
+.menu-top button{
+    color: #3d2514;
+    background-color: #ffc045;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 5px;
+    border: 1px solid #ffc045;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue',;
+}
+.menu-top button:hover{
+    background-color: #fff;
+    color: #3d2514;
+    border: 1px solid #fff;
+}
+.menu-top h1{
+    font-family: 'Amatic SC',;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin-top: 10px;
+    font-size: 44px;
+    font-weight: 800;
+}
+.menu-top p{
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+/* menu bottom section css code start */
+.menu-bottom{
+    margin-bottom: 200px;
+}
+.menu-bottom img{
+   margin-right: 100px;
+   letter-spacing: 20px;
+}
+.image{
+    width: 400px;
+    height: 320px;
+    margin-left: 10px;
+}
+.menu-bottom h1{
+    color: #3d2514;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-left: 100px;
+}
+.menu-bottom p{
+    font-family:'Montserrat', sans-serif;
+    color: #3d2514;
+    font-size: 14px;
+    align-items: justify;
+    margin-left: 100px;
+}
+.menu-bottom button{
+     background-color: #df1c1c;
+     color: #fff;
+     width: 35%;
+     height: 40px;
+     border: 1px solid #df1c1c;
+     border-radius: 2px ;
+     margin-left: 100px;
+     text-transform: uppercase;
+}
+.menu-bottom button:hover{
+    color: #df1c1c;
+    background-color: #fff;
+
+}
+/* menu section css code end */
+
+/* event section css start here */
+.event-section{
+    margin-bottom: 50px;
+    padding: 20px;
+    box-shadow: 10px 6px 10px rgba(0 0 0 /30%);
+}
+.event-left{
+
+}
+.event-left h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.event-left h1{
+    color: #3d2514;
+    font-family:  'Alfa Slab One';
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.event-left p{
+    color: #3d2514;
+    font-size: 14px;
+    justify-content: baseline;
+}
+/* event section css end here */
+/* booking section css code start here */
+.booking{
+    width: 100%;
+    height: 100vh;
+    margin-top: 150px;
+    background-image: url(image/group.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+}
+.booking-section{
+    text-align: center;
+    padding-top: 100px;
+}
+.booking-section h4{
+    color: #3d2514;
+    font-family: 'Bebas Neue';
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.booking-section h1{
+    color: #3d2514;
+    font-family:  'Alfa Slab One';
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* table section css start here */
+.tab{
+    display: flex;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 100px;
+    padding: 10px;
+}
+.table-left{
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+.table-left input{
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.table-right{
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin-left: 200px;
+}
+.table-right input{
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.table-right button{
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-family: 'Alfa Slab One';
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    background-color: #df1c1c;
+    border: 1px solid #df1c1c;
+    border-radius: 5px;
+}
+.table-right button:hover{
+    background-color: #ffc045;
+    color: #df1c1c;
+    border: 1px solid #ffc045;
+}
+/* table section css start here */
+
+/* booking section css code end here */
+
+/* footer section css start here */
+#footer{
+    background-image: url(image/footer.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 200px;
+}
+.footer-left{
+    margin-top: 250px;
+}
+.footer-left img{
+    color: #fff;
+}
+.footer-left p{
+    color: #fff;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-right{
+    display: block;
+    margin-top: 300px;
+    margin-left: 300px;
+}
+.footer-right i{
+    display: block;
+    font-size: 20px;
+    color: #fff;
+}
+.footer-right span{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* social media section css start here */
+.social{
+    display: flex;
+    margin-top: 150px;
+}
+.social-left h4{
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.social-right{
+   margin-left: 600px;
+}
+.social-right i{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.social-right i:hover{
+    color: #ffc045;
+    transition: 1s;
+}
+/* footer section css end here */
